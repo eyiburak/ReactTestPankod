@@ -11,7 +11,7 @@ const Footer = () => {
             <NavMenu />
             <div className="Logo">
                 <NavLink to="/">
-                    <img src={Logo} />
+                    <img src={Logo} aria-hidden="true" alt="" />
                 </NavLink>
             </div>
         </div>

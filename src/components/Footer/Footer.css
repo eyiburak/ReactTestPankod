@@ -1,0 +1,29 @@
+.Footer {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:15px 0;
+    border:1x solid red;
+    border:1px solid #e2e2e2;
+    border-left:0;
+    border-right:0;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    background-color:#fff;
+}
+
+.Footer .Logo {
+    width:230px;
+}
+
+.Footer .Logo img {
+    width:100%;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .Footer {
+        position: relative;
+    }
+}

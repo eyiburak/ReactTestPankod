@@ -1,0 +1,15 @@
+.NavMenu ul li {
+    display:inline;
+    padding:0 20px;
+}
+
+.NavMenu ul li .Link {
+    color:#777;
+    text-decoration: none;
+    transition:all 0.2s linear;
+}
+
+.NavMenu ul li .Link:hover {
+    color:#03BBD2;
+    transition:all 0.2s linear;
+} 
